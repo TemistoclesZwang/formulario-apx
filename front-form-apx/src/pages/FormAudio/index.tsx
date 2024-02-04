@@ -31,7 +31,7 @@ export function FormAudio() {
         <Box p={4}>
             <FormHandler onSubmit={handleSubmit}>
                 <VStack spacing={4}>
-                    {createInputs(5)}
+                    {createInputs(2)}
                     <Button type='submit' colorScheme='blue'>Avançar</Button>
                 </VStack>
             </FormHandler>
